@@ -13,7 +13,7 @@ class Parser implements ParserInterface
      * @param string $tag
      * @return array
      */
-    public function process(string $tag, string $url): array
+    public function process(string $url, string $tag): array
     {
 
         $htmlPage = file_get_contents($url);

@@ -1,0 +1,21 @@
+{
+    "name": "remek19901/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vladimir Remeniuk",
+            "email": "vlremenyuk@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "remek19901\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

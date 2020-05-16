@@ -36,6 +36,7 @@ class Parser implements ParserInterface
     public function test()
     {
         // feature
+        echo "you've just used 'test' method of a 'Parser' class";
     }
 
 }
